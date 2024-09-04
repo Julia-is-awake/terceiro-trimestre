@@ -1,4 +1,4 @@
-package aula31.classeAbstrata;
+package aula31.exemploAbstrato;
 
 public class Circulo extends Figura{
     private double raio;

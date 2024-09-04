@@ -1,4 +1,4 @@
-package aula31.classeAbstrata;
+package aula31.exemploAbstrato;
 
 public abstract class Figura {
     public String nomeFigura;
@@ -15,7 +15,8 @@ public abstract class Figura {
 
     public abstract double calculaPerimetro();
 
-    public String toStrig(){
+    @Override
+    public String toString(){
         String retorno = "Nome: "+nomeFigura;
         retorno+="\nÁrea: " +calculaArea();
         retorno+="\nPerímetro: "+calculaPerimetro();
