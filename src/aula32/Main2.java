@@ -27,5 +27,12 @@ public class Main2 {
         System.out.println(l1);
         System.out.println("Tamanho: "+l1.tamanho());
         System.out.println("Está vazia: "+l1.estaVazia());
+        l1.adiciona("Robert Ibrahim");
+        l1.adiciona("147");
+        l1.adiciona("Lalita Gomes");
+        l1.adiciona("Nykolai Tao");
+        l1.adiciona("473");
+        l1.adiciona("Conubia tellus hac id netus maximus eget tristique.");
+        System.out.println(l1);
     }
 }
